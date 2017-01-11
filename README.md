@@ -1,8 +1,11 @@
-# json-resume
+# resume
 Resume exported from JSON, courtesy of https://jsonresume.org
 
-## Steps
+## Steps. 
+See [Getting Started](https://jsonresume.org/getting-started/) for more details.
 
-* Update `resume.json`
-* Run `generate`. This will output `resume.html`.
-* Profit! (hopefully)
+* `npm install -g resume-cli` 
+* Create your own `resume.json`
+* Run `generate`. This will output `index.html`. (Currently set to the "slick" theme)
+* Commit it and turn on Github Pages to host it.
+* As an example, here my [resume](http://williams-tech.com).
