@@ -1,0 +1,116 @@
+{
+  "basics": {
+    "name": "Matt Williams",
+    "label": "Site Reliability Engineer",
+    "picture": "https://www.gravatar.com/avatar/898e646cfb44494084776bdd471c68ec?s=200",
+    "email": "matt@williams-tech.net",
+    "phone": "(540) 818-8474",
+    "summary": "Site Reliability Engineer with a passion for enabling teams to move quickly at any scale. Have balanced new and proven technology in architecting and scaling infrastructure such that applications are always available, performant, and reliable.",
+    "location": {
+      "city": "Christiansburg",
+      "countryCode": "US",
+      "region": "Virginia"
+    },
+    "profiles": [{
+      "network": "Linkedin",
+      "username": "mattwilliams2007",
+      "url": "https://www.linkedin.com/in/mattwilliams2007"
+    },{
+      "network": "Github",
+      "username": "mago0",
+      "url": "https://github.com/mago0"
+    }]
+  },
+  "work": [{
+    "company": "Tilt.com",
+    "position": "Site Reliability Engineer",
+    "website": "http://www.tilt.com",
+    "startDate": "2011-11-01",
+    "summary": "Grew the engineering team while building a reproducible, scalable infrastructure that millions of customers in 8 countries relied upon for transacting hundreds of millions of dollars. Lead the company through numerous scaling challenges, infrastructure upgrades, data migrations, and regulatory hurdles (PCI Compliance). Helped enable a DevOps culture by providing the tooling and education to allow for self-service across engineering teams.",
+    "highlights": [
+      "One-hundred percent Infrastructure as Code from day one.",
+      "HA infrastructure at every level of the stack - achieved 5-9s uptime.",
+      "Built a highly-secure network in Amazon VPC which achieved PCI Level 1 compliance.",
+      "Implemented IPSec tunnel and custom monitoring to allow for global, multi-datacenter expansion.",
+      "Implemented Vagrant development environment with high parity to staging/production.",
+      "Key role in implementation of highly-automated, asset-based deployment pipeline.",
+      "Achieved a much improved on-call experience by migrating all monitoring and alerting from Nagios to hosted Datadog monitoring with integration to Pagerduty.",
+      "Management and enrichment of log data with Filebeat, Logstash and ElasticSearch.",
+      "Utilized Packer, Ansible, CloudFormation, and Chef to deploy and update entire stack in minutes.",
+      "Auto-scaling of all application servers and proxy services within 4 minutes of performance alerts.",
+      "Designed and implemented new infrastructure to allow for “plug-n-play” apps via Docker on ECS."
+    ]
+  },{
+    "company": "Rackspace",
+    "position": "Senior Linux Engineer",
+    "startDate": "2008-07-01",
+    "endDate": "2011-10-20",
+    "summary": "Grew the engineering team while building a reproducible, scalable infrastructure that millions of customers in 8 countries relied upon for transacting hundreds of millions of dollars. Lead the company through numerous scaling challenges, infrastructure upgrades, data migrations, and regulatory hurdles (PCI Compliance). Helped enable a DevOps culture by providing the tooling and education to allow for self-service across engineering teams."
+  },{
+    "company": "Rackspace",
+    "position": "Senior Linux Engineer",
+    "startDate": "2005-05-05",
+    "endDate": "2008-06-25",
+    "summary": "Managed a small team overseeing a mixed environment of more than 150 Solaris UNIX and Red Hat Linux servers dedicated to serving the Army Acquisition Corps."
+  }],
+  "education": [{
+    "institution": "Radford University",
+    "area": "Computer Science",
+    "studyType": "Bachelor of Science",
+    "startDate": "2002-08-01",
+    "endDate": "2006-06-01"
+  }],
+  "skills": [{
+    "name": "Config Management",
+    "keywords": [
+      "Vagrant",
+      "Chef",
+      "Ansible",
+      "CloudFormation"
+    ]
+  },{
+    "name": "Deployment",
+    "keywords": [
+      "AWS/ECS",
+      "Docker",
+      "Jenkins",
+      "CircleCi"
+    ]
+  },{
+    "name": "Coding/Scripting",
+    "keywords": [
+      "Bash/Zsh",
+      "Ruby",
+      "JSON",
+      "YAML"
+    ]
+  },{
+    "name": "Database",
+    "keywords": [
+      "Postgres",
+      "PgBouncer",
+      "MySQL"
+    ]
+  },{
+    "name": "Proxies/Caching",
+    "keywords": [
+      "AWS/ELB",
+      "HAProxy",
+      "Nginx",
+      "Varnish",
+      "Redis/Memcache"
+    ]
+  },{
+    "name": "Logging/Metrics",
+    "keywords": [
+      "Filebeat",
+      "Gelf",
+      "ELK",
+      "Statsd"
+    ]
+  }],
+  "references": [{
+    "name": "William Wolf, Director of Technology at Tilt.com",
+    "reference": "I've had the pleasure to work with Matt pretty extensively, first at Rackspace early on in my career, and most recently at Tilt. I can truly say that Matt is an amazing person to work with, and one of the hardest working, most passionate people I've ever met. Matt is able to quickly ramp up on new technologies, and discern what's a fad from what will add true, lasting value to the problem at hand. He's able to mentor others (even remotely) while moving incredibly fast. He takes pride in his work, and is a stickler for details. I've watched Matt masterfully manage 100+ servers (bare metal!) all by himself, and migrate entire production infrastructures seamlessly from one cloud provider to another. You quickly learn that you can throw any new challenge Matt's way, and he will rise to, and even exceed expectations, learning whatever is necessary along the way. It's always a pleasure to work with Matt, and I look forward to continuing to learn from him in the future."
+  }]
+}
